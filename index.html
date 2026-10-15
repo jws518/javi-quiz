@@ -53,6 +53,7 @@
   }
   @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
 
+  .real-javi { display: block; height: 260px; width: auto; margin: 0 auto 18px; filter: drop-shadow(0 10px 12px rgba(120,90,40,.22)); animation: rise .6s ease both; }
   .intro-dog { margin-bottom: 18px; }
   .bubble { font-size: 18px; line-height: 1.75; margin: 0 0 24px; word-break: keep-all; }
   .bubble b { font-weight: 600; }
@@ -184,7 +185,7 @@
 
   <!-- end (sample) -->
   <section class="card" id="end" hidden>
-    <div class="dog-front intro-dog" data-front="calm" role="img" aria-label="반려견 Javi"></div>
+    <img class="real-javi" src="assets/javi.png" alt="실제 하비 사진">
     <p class="bubble" id="endText"></p>
     <button class="btn ghost" id="restart">처음부터 다시</button>
   </section>
